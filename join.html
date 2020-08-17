@@ -17,12 +17,26 @@
         <h3>Join</h3>
         <hr>
         <form name="join_form" method="post" action="join.php">
-          - NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" ><br/>
-          - ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="id" value="학번을 입력하세요."><br/>
-          - PASSWORD&nbsp;&nbsp;&nbsp;<input type="text" name="password" ><br/>
-          - PHONE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" name="phone" placeholder="000-0000-0000" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"><br/>
+          <table border=0>
+            <tr>
+              <td>- NAME</td>
+              <td><input type="text" name="name" ></td>
+            </tr>
+            <tr>
+              <td>- ID</td>
+              <td><input type="text" name="id" value="학번을 입력하세요."></td>
+            </tr>
+            <tr>
+              <td>- PASSWORD</td>
+              <td><input type="text" name="password" ></td>
+            </tr>
+            <tr>
+              <td>- PHONE </td>
+              <td><input type="tel" name="phone" placeholder="000-0000-0000" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"></td>
+            </tr>
+          </table>
 
-          <input type="submit" value="join">
+          <input type="submit" value="join"><input type="reset" value="cancel">
           <hr>
       </div>
       <div id="foot">
