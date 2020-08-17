@@ -14,10 +14,16 @@
         sookmyung SISS
       </div>
       <div id="body">
-        <form name="login_form" method="post" action="login.php">
-          ID : <input type="text" name="id"><br/>
-          PASSWORD : <input type="password" name="password"><br/>
-          <input type="submit" value="login">
+        <h3>Join</h3>
+        <hr>
+        <form name="join_form" method="post" action="join.php">
+          - NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" ><br/>
+          - ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="id" value="학번을 입력하세요."><br/>
+          - PASSWORD&nbsp;&nbsp;&nbsp;<input type="text" name="password" ><br/>
+          - PHONE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" name="phone" placeholder="000-0000-0000" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"><br/>
+
+          <input type="submit" value="join">
+          <hr>
       </div>
       <div id="foot">
         foot
