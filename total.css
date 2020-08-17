@@ -14,22 +14,13 @@
         margin-bottom:10px;
         border: 1px solid gray;
         text-align:center;
-        
-      }
-      #body {
-        width: 1085px;
-        padding: 10px;
-        margin-bottom:10px;
-        float:right;
-        border: 1px solid gray;
 
       }
-      #nav{
-        width: 260px;
+      #body {
         padding: 10px;
-        margin-bottom: 10px;
-        float:left;
+        margin-bottom:10px;
         border: 1px solid gray;
+
       }
       #foot{
         clear: both;
