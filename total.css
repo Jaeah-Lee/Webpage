@@ -1,0 +1,38 @@
+      #t{
+        width: 1400px;
+        padding: 10px;
+        border: 1px solid gray;
+      }
+      #top{
+        padding: 10px;
+        margin-bottom:10px;
+        border: 1px solid gray;
+        text-align:right;
+      }
+      #h {
+        padding:10px;
+        margin-bottom:10px;
+        border: 1px solid gray;
+        text-align:center;
+        
+      }
+      #body {
+        width: 1085px;
+        padding: 10px;
+        margin-bottom:10px;
+        float:right;
+        border: 1px solid gray;
+
+      }
+      #nav{
+        width: 260px;
+        padding: 10px;
+        margin-bottom: 10px;
+        float:left;
+        border: 1px solid gray;
+      }
+      #foot{
+        clear: both;
+        padding: 10px;
+        border: 1px solid gray;
+      }
