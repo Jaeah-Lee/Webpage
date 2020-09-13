@@ -22,7 +22,7 @@
         <?php   }
                 else if($_SESSION['userid']==$usrid) {
         ?>
-        <form method = "get" action = "modify_action.php">
+        <form method = "POST" action = "modify_action.php">
         <table  style="padding-top:50px" align = center width=700 border=0 cellpadding=2 >
                 <tr>
                 <td height=20 align= center bgcolor=#ccc><font color=white> 글수정</font></td>
